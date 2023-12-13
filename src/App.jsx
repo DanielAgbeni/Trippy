@@ -1,10 +1,11 @@
 import { useState } from 'react';
+import Navbar from './Components/Navbar';
 
 function App() {
 	return (
-		<>
-			<div></div>
-		</>
+		<div className='w-screen h-auto flex flex-auto'>
+			<Navbar />
+		</div>
 	);
 }
 
