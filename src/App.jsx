@@ -12,8 +12,8 @@ import Contact from './Components/Routes/Contact';
 import Service from './Components/Routes/Service';
 const Layout = () => {
 	return (
-		<div className='bg-gray-100 w-full'>
-			<Navbar />
+		<div>
+			<Navbar className=' fixed top-0 left-0 right-0 mx-auto z-10' />
 			<ScrollRestoration />
 			<Outlet />
 		</div>

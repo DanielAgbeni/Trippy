@@ -13,7 +13,7 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
 	const [isMenu, setIsMenu] = useState(false);
 	return (
-		<div className='shadow-2xl bg-white px-8 py-3 h-full rounded-xl w-[95%] flex items-center justify-center mx-auto'>
+		<div className='shadow-2xl fixed top-3 left-0 right-0 z-10 py-10 bg-white px-12 h-12 rounded-xl w-[95%] flex items-center justify-center mx-auto'>
 			{/* For destops */}
 			<nav className='hidden md:flex w-full h-full items-center justify-between shadow-primary py-1'>
 				<h1 className=' text-4xl font-bold flex items-center justify-center cursor-pointer'>
